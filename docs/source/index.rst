@@ -1,10 +1,12 @@
-Welcome to Lumache's documentation!
+Welcome to Dapper's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+**Dapper** is a `CRIU <https://criu.org/Main_Page>`_ extension that transforms
+the CRIU image between different architectures. It allows *live process migration*
+between an x86 machine node and an ARM machine node.
+
+Check the :doc:`install` page for installation, and the :doc`usage` page for how
+to use **Dapper** to migrate a process across the architecture boundary.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
